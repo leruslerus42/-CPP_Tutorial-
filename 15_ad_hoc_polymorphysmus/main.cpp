@@ -5,21 +5,18 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: rrajaobe <rrajaobe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/08 01:02:05 by rrajaobe          #+#    #+#             */
-/*   Updated: 2022/07/13 07:36:02 by rrajaobe         ###   ########.fr       */
+/*   Created: 2022/07/13 07:28:13 by rrajaobe          #+#    #+#             */
+/*   Updated: 2022/07/13 07:49:25 by rrajaobe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// PREFIX + (1, 1)
-// POSTFIX 1 1 +
-// NORMAL 1 + 1
+/*Defining differents functions withsame name but different parameters.*/
 
 #include <iostream>
-#include "header.hpp"
 
+#include "./header.hpp"
 
-int main(void)
+int main()
 {
-
-	return (0);
+	
 }

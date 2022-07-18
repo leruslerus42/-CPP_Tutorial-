@@ -1,25 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   header.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rrajaobe <rrajaobe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/08 01:02:05 by rrajaobe          #+#    #+#             */
-/*   Updated: 2022/07/13 07:36:02 by rrajaobe         ###   ########.fr       */
+/*   Created: 2022/07/08 01:02:03 by rrajaobe          #+#    #+#             */
+/*   Updated: 2022/07/13 08:04:08 by rrajaobe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// PREFIX + (1, 1)
-// POSTFIX 1 1 +
-// NORMAL 1 + 1
+#ifndef HEADER_CLASS_H
+#define HEADER_CLASS_H
 
-#include <iostream>
-#include "header.hpp"
-
-
-int main(void)
+class Integer
 {
+	private:
+		int _n;
+	public:
 
-	return (0);
-}
+		Integer (int const n);
+		~Integer(void);
+
+		int	get_value(void) const;
+
+		Integer & operator-(Integer const & rhs);	//function overload
+		Integer	operator+(Integer const & rhs) const;
+	
+
+};
+
+std::ostream & operator << (std::ostream & o, Integer const & rhs);
+
+
+#endif

@@ -6,7 +6,7 @@
 /*   By: rrajaobe <rrajaobe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/08 01:02:03 by rrajaobe          #+#    #+#             */
-/*   Updated: 2022/07/08 08:01:38 by rrajaobe         ###   ########.fr       */
+/*   Updated: 2022/07/11 14:14:08 by rrajaobe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,8 @@
 
 class Sample
 {
+	private:
+	
 	public:
 
 		int	foo;
